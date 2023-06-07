@@ -17,8 +17,8 @@ Version.Patch,1
 Group,homelessness
 Tag,homelessness
 Tag,san_diego
-Modified,2022-04-20T20:29:32
-Giturl,https://github.com/sandiegodata-projects/downtown-partnership.git
+Modified,2023-06-07T17:54:12
+Giturl,https://github.com/metatab-packages/sandiegodata.org-dowtown_homeless.git
 ""
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
