@@ -11,7 +11,7 @@ Space,
 Grain,
 Variant,
 Version,2.1.1
-Version.Major,2
+Version.Major,3
 Version.Minor,1
 Version.Patch,1
 Group,homelessness
@@ -19,25 +19,25 @@ Tag,homelessness
 Tag,san_diego
 Modified,2023-06-07T17:54:12
 Giturl,https://github.com/metatab-packages/sandiegodata.org-dowtown_homeless.git
-""
+
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
-""
+
 Section,Documentation,Title,Description,,
 Documentation,file:README.md,README,,,
-""
+
 Section,References,Name,Description,,
-Reference,metapack+http://library.metatab.org/sandiegodata.org-downtown_homeless-source-6.csv#counts,counts,Final homeless sleeper counts,,
-Reference,metapack+http://library.metatab.org/sandiegodata.org-downtown_homeless-source-6.csv#files,files,"Final file annotations, including total counts, temperature and weather.",,
+Reference,metapack+https://library.metatab.org/sandiegodata.org-downtown_homeless-source-7.1.3.csv#counts,counts,Final homeless sleeper counts,,
+Reference,metapack+https://library.metatab.org/sandiegodata.org-downtown_homeless-source-7.1.3.csv#files,files,"Final file annotations, including total counts, temperature and weather.",,
 Reference,shape+https://www2.census.gov/geo/pvs/tiger2010st/06_California/06073/tl_2010_06073_tabblock10.zip,blocks,2010 Census blocks for San Diego County,,
-""
+
 Section,Resources,Name,Description,,
 Datafile,file:data/neighborhood_totals.csv#&encoding=ascii,neighborhood_totals,"Totals for each of the neighborhoods for 2018 and 2019, from the published Downtown San Diego Partnership statistics",,
 Datafile,file:data/monthly_totals.csv#&encoding=ascii,monthly_totals,"Monthly totals since 2012, from the published Downtown San Diego Partnership statistics",,
 Datafile,notebooks/Counts.ipynb#homeless_counts,homeless_counts,"Counts of homeless sleepers in Downtown San Diego, 2014 to mid 2018.",,
 Datafile,notebooks/Impute.ipynb#imputed,imputed_counts,The homeless_counts file with missing months probablistically imputed,,
 Datafile,notebooks/Counts.ipynb#dataset_blocks,downtown_blocks,Census TIGER geographic regions for the blocks that have one or more homeless sleepers in this dataset.,,
-""
+
 Section,Schema,DataType,Description,Altname,Has_Codes
 Table,homeless_counts,,,,
 Table.Column,neighborhood,string,"Neighborhood, from the label on the source map",,
